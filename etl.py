@@ -6,7 +6,6 @@ from pyspark.sql.functions import udf, col
 from pyspark.sql.functions import year, month, dayofmonth, hour, weekofyear, date_format, to_timestamp, dayofweek
 from pyspark.sql.types import StructType, StructField, DoubleType, StringType, IntegerType, DateType, FloatType
 
-
 config = configparser.ConfigParser()
 config.read('dl.cfg')
 
